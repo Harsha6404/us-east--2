@@ -3,6 +3,6 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  description = "RDS Password"
-  sensitive   = true
+  default   = "MyDB@12345"
+  sensitive = true
 }
